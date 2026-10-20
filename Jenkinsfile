@@ -9,8 +9,8 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = 'YOUR_DOCKERHUB_USERNAME/devops-cicd-lab'
-        APP_HOST   = 'YOUR_APP_PRIVATE_IP'
+        IMAGE_NAME = 'sohel22/devops-cicd'
+        APP_HOST   = '65.0.125.72'
         APP_USER   = 'ubuntu'
     }
 
